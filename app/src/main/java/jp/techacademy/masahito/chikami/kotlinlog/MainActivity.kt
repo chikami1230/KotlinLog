@@ -163,6 +163,11 @@ class MainActivity : AppCompatActivity() {
         human.say()
         human.think()
 
+        val human2 = Human("〜〜",0,"〜〜")
+
+        human2.say()
+        human2.think()
+
 
 
 
