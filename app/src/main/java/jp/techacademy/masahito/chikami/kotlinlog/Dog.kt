@@ -28,7 +28,7 @@ import android.util.Log
 open class Dog: Animal, Movable {
     // 引数付きコンストラクタ
 
-    constructor(name: String, age: Int) : super(name, age) {
+    constructor(name: String, age: Int) : super(name,age) {
     }
 
     // Animalクラスのメソッドをオーバーライド

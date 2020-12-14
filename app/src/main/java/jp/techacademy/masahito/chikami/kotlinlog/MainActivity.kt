@@ -158,12 +158,14 @@ class MainActivity : AppCompatActivity() {
         dog.move()
 
 
-
-
-        val human = Human("",0, "趣味")
+        val human = Human ("〜〜",0,"〜〜")
 
         human.say()
         human.think()
+
+
+
+
 
     }
 }
