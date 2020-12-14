@@ -2,9 +2,13 @@ package jp.techacademy.masahito.chikami.kotlinlog
 
 import android.util.Log
 
-class Human: Animal, Thinkable{
+open class Human: Animal, Thinkable{
 
-    constructor(name: String, age: Int,hobby: String): super(name, age, hobby) {
+    var hobby : String
+
+
+    constructor(name: String, age: Int, hobby:String): super(name, age) {
+        this.hobby = hobby
     }
 
     override fun say() {
@@ -15,6 +19,7 @@ class Human: Animal, Thinkable{
 
 
     override fun think() {
-        Log.d("kotlintest","私は" + this.hobby+ "について考える")
+
+        Log.d("kotlintest","私は" + this.hobby + "について考える")
     }
 }
